@@ -1,0 +1,2 @@
+This Angular workspace already exists.
+We added environment files and will build pages, routing, services, and layout matching the Violet Dreams theme.

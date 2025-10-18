@@ -1,0 +1,27 @@
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="logo">PM</span>
+      <span class="name">Preventive Maintenance</span>
+    </div>
+    <nav class="nav">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Dashboard</a>
+      <a routerLink="/assets" routerLinkActive="active">Assets</a>
+      <a routerLink="/tasks" routerLinkActive="active">Tasks</a>
+      <a routerLink="/schedules" routerLinkActive="active">Schedules</a>
+      <a routerLink="/history" routerLinkActive="active">History</a>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <div class="title">Maintenance Console</div>
+      <div class="actions">
+        <span class="badge">v1.0</span>
+      </div>
+    </header>
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
